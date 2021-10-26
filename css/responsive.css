@@ -89,9 +89,19 @@
     .contact{
         margin: 185px auto 0px auto;
     }
+    .about-sec{
+        flex-direction: column;
+    }
+    .abt-div{
+        margin-top: 200px;
+        max-width: 95%;
+    }
+    .about-auth{
+        margin-bottom: -150px;
+    }
 }
 
-@media only screen and (max-width: 431px){
+@media only screen and (max-width: 479px){
     .sec-top{
         margin: 290px auto 0px auto;
     }
@@ -104,10 +114,15 @@
     .contact{
         margin: 200px auto 0px auto;
     }
+    .abt-div{
+        margin-top: 300px;
+        height: 70%;
+    }
 }
-
-/* @media only screen and (max-width: 429px){
+ 
+@media only screen and (max-width: 414px){
     .box-main{
+        padding-top:100px;
         max-width: 100%;
     }
     .text-small{
@@ -117,10 +132,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 0px -125px;
+        flex-direction: column;
+        margin: 0px -150px;
     }
     .second-half img{
-        margin: 35px 20px;
+        margin: 35px 0px;
         width: 160px;
     }
     .para1{
@@ -130,17 +146,17 @@
         margin: auto;
     }
     .sec-top{
-        margin: 200px auto 0px auto;
+        margin: 370px auto 0px auto;
     }
     .sec-left{
-        margin: 325px auto 0px auto;
+        margin: 640px auto 0px auto;
 
     }
     .sec-right{
-        margin: 300px auto 0px auto;
+        margin: 600px auto 0px auto;
 
     }
     .contact{
         margin: 150px auto 0px auto;
     }
-} */
+} 
