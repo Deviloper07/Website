@@ -133,10 +133,10 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin: 0px -150px;
+        margin: 0px -120px;
     }
     .second-half img{
-        margin: 35px 0px;
+        margin: 35px 25px;
         width: 160px;
     }
     .para1{
@@ -146,14 +146,14 @@
         margin: auto;
     }
     .sec-top{
-        margin: 370px auto 0px auto;
+        margin: 300px auto 0px auto;
     }
     .sec-left{
-        margin: 640px auto 0px auto;
+        margin: 490px auto 0px auto;
 
     }
     .sec-right{
-        margin: 600px auto 0px auto;
+        margin: 460px auto 0px auto;
 
     }
     .contact{
