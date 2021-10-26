@@ -1,4 +1,45 @@
-@media only screen and (max-width: 1064px){
+@media only screen and (max-width: 1001px){
+    .navbar{
+        flex-direction: column;
+        height: auto;
+        position: relative;
+    }
+    .nav{
+        flex-direction: column;
+        align-content: center;
+        margin: auto;
+        padding: 0px;
+    }
+    .nav-list li{
+        margin: 10px auto;
+        padding: 5px auto;
+    }
+    #search{
+        margin: 10px auto;
+        padding: 5px auto;
+    }
+    .box-main{
+        align-content: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .first-half{
+        margin: 0px;
+    }
+
+    .second-half{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .second-half img{
+        margin-top: 200px;
+    }
+    .btn-search{
+        margin: 10px auto 20px auto;
+    }
     .btn{
         white-space: normal;
     }
@@ -8,155 +49,78 @@
     .text-small{
         font-size: 13px;
     }
-    .section img{
-        width: 200px;
-    }
-}
-
-@media only screen and (max-width: 891px){
-    .nav{
-        flex-direction: column;
-        /* position: fixed; */
-    }
-    .navbar{
-        flex-direction: column;
-    }
-    .navbar ul li{
-        padding-top: 0px;
-    }
-    .right-nav{
-        flex-direction: column;
-    }
-    .logo{
-        margin-left: 0px;
-    }
-    .navbar{
-        position: static;
-    }
-}
-
-@media only screen and (max-width: 851px){
-    .box-main{
-        flex-direction: column-reverse;
-    }
-    .second-half img{
-        margin: 30px 30px;
-    }
-    .text-small{
-        padding-left: 50px;
-    }
     .buttons{
-        margin: 0px -30px;
+        flex-direction: column;
     }
 }
 
-@media only screen and (max-width: 770px){
-    .box-main{
-        max-width: 100%;
-    }
-    .text-small{
-        padding-left: 20px;
-    }
-    .buttons{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0px -128px;
-    }
-    .second-half img{
-        margin: 35px 35px;
-        width: 160px;
-    }
+@media only screen and (max-width: 801px){
     .section{
-        margin: auto;
-        display: flex;
         flex-direction: column;
-    }
-    .section img{
-        width: 240px;
-    }
-    .sec-top{
-        margin: 280px auto 0px auto;
-    }
-    .sec-left{
-        margin: 450px auto 0px auto;
-
-    }
-    .sec-right{
-        margin: 420px auto 0px auto;
-
-    }
-    .contact{
-        margin: 185px auto 0px auto;
+        margin-bottom: -70px;
     }
     .about-sec{
+        margin-top: 100px;
         flex-direction: column;
     }
     .abt-div{
-        margin-top: 200px;
-        max-width: 95%;
+        width: 90%;
     }
+
     .about-auth{
-        margin-bottom: -150px;
+        width: 400px;
+        height: 180px;
+        padding: 25px;
+        flex-direction: row;
+
+    }
+    .image-auth img{
+        width: 170px;
+        height: 170px;
+        margin-right: 15px;
+    }
+    .contact-us{
+        width: 90%;
     }
 }
 
-@media only screen and (max-width: 479px){
-    .sec-top{
-        margin: 290px auto 0px auto;
-    }
-    .sec-left{
-        margin: 480px auto 0px auto;
-    }
-    .sec-right{
-        margin: 460px auto 0px auto;
-    }
-    .contact{
-        margin: 200px auto 0px auto;
-    }
-    .abt-div{
-        margin-top: 300px;
-        height: 70%;
-    }
-}
- 
-@media only screen and (max-width: 414px){
-    .box-main{
-        padding-top:100px;
-        max-width: 100%;
-    }
-    .text-small{
-        padding-left: 20px;
-    }
-    .buttons{
+@media only screen and (max-width: 501px){
+    .about-auth{
         display: flex;
-        align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin: 0px -130px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        height: 310px;
+        padding: 25px;
+        width: 180px;
+        background-color: rgb(27, 25, 25);
+        margin: 30px;
+        border-radius: 7px;
     }
-    .second-half img{
-        margin: 35px 25px;
-        width: 160px;
+    
+    .abt-div{
+        height: auto;
     }
-    .para1{
-        margin: 600px auto;
+
+    .oh-no{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
     }
-    .section{
+    
+    .info p{
+        text-align: center;
+        margin: 10px auto 45px auto;
+        font-size: 20px;
+        font-family: 'Dancing Script', cursive;
+        color: white;
+    }
+    
+    .image-auth img{
+        height: 170px;
         margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        border-radius: 7px;
     }
-    .sec-top{
-        margin: 300px auto 0px auto;
-    }
-    .sec-left{
-        margin: 490px auto 0px auto;
-
-    }
-    .sec-right{
-        margin: 460px auto 0px auto;
-
-    }
-    .contact{
-        margin: 150px auto 0px auto;
-    }
-} 
+}
