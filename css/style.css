@@ -33,7 +33,7 @@
 
 .nav-list{
     display: flex;
-    width: 100%;
+    width: 70%;
     /* background-color: black; */
     /* justify-content: center; */
     align-items: center;
@@ -275,6 +275,65 @@ body{
 .paras{
     padding: 23px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.about-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt-div{
+    font-size: 23px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    height: 300px;
+    padding: 10px auto 20px auto;
+    width: 630px;
+    background-color: rgb(27, 25, 25);
+    margin: 30px;
+    border-radius: 7px;
+}
+
+.abt-div h2{
+    padding-top: 20px;
+}
+
+.para-abt{
+    margin: 35px;
+}
+
+.about-auth{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    height: 300px;
+    padding: 30px;
+    width: 180px;
+    background-color: rgb(27, 25, 25);
+    margin: 30px;
+    border-radius: 7px;
+}
+
+.info p{
+    text-align: center;
+    margin: 25px auto;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+
+.about-auth img{
+    height: 160px;
+    margin: auto 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 7px;
+}
+
+.git-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
 }
 
 .contact{
