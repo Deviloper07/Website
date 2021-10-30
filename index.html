@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AstroGraphy</title>
+    <title>Cosmos</title>
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -28,25 +29,27 @@
     </nav>
     <main>
         <section class="background first-section">
-            <div class="box-main">
-                <div class="first-half">
-                    <div>
-                        <p class="text-big">The future of Cosmology.</p>
-                        <p class="text-small">About to reach... Forge of the Creation...</p>
+            <div class="main-div">
+                <div class="box-main">
+                    <div class="first-half" data-aos="fade-right">
+                        <div>
+                            <p class="text-big">The future of Cosmology.</p>
+                            <p class="text-small">About to reach... Forge of the Creation...</p>
+                        </div>
+                        <div class="buttons">
+                            <button class="btn xter" role="button"><span class="text-btn">Subscribe</span></button>
+                            <button class="btn" role="button"><span class="text-btn">See more Captures</span></button>
+                        </div>
                     </div>
-                    <div class="buttons">
-                        <button class="btn xter" role="button"><span class="text-btn">Subscribe</span></button>
-                        <button class="btn" role="button"><span class="text-btn">See more Captures</span></button>
+                    <div class="second-half" data-aos="fade-left">
+                        <img src="img/galleo.png" alt="random image">
                     </div>
-                </div>
-                <div class="second-half">
-                    <img src="img/galleo.png" alt="random image">
                 </div>
             </div>
         </section>
         <br id="latest">
         <section class="sec-top section">
-            <div class="paras">
+            <div class="paras" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                 <p class="sec-tag text-big">Universe</p>
                 <p class="sec-sub-tag text-small">
                     The universe (Latin: universus) is all of space and time and their contents, including planets,
@@ -59,14 +62,14 @@
                     diameter at the present day.
                 </p>
             </div>
-            <div class="thumbnail">
+            <div class="thumbnail" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                 <img src="https://source.unsplash.com/240x240/?universe" alt="Image of Universe" class="astroimgs">
                 <!-- https://source.unsplash.com/240x240/?sci-fi -->
                 <!-- ./img/universe.jpg -->
             </div>
         </section>
         <section class="section sec-left">
-            <div class="paras">
+            <div class="paras" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                 <p class="sec-tag text-big">Space</p>
                 <p class="sec-sub-tag text-small">
                     Space is the boundless three-dimensional extent in which objects and events have relative position
@@ -78,12 +81,12 @@
                     of a conceptual framework.
                 </p>
             </div>
-            <div class="thumbnail">
+            <div class="thumbnail" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                 <img src="https://source.unsplash.com/240x240/?space" alt="Random Image of Space" class="astroimgs">
             </div>
         </section>
         <section class="section sec-right">
-            <div class="paras">
+            <div class="paras" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                 <p class="sec-tag text-big">Sci-fi</p>
                 <p class="sec-sub-tag text-small">
                     Science fiction (sometimes shortened to sci-fi or SF) is a genre of speculative fiction that
@@ -93,13 +96,13 @@
                     and technological innovations.
                 </p>
             </div>
-            <div class="thumbnail">
+            <div class="thumbnail" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                 <img src="https://source.unsplash.com/240x240/?sci-fi" alt="Some random sci-fi image" class="astroimgs">
             </div>
         </section>
         <br id="about">
         <section class="about-sec">
-            <div class="abt-div">
+            <div class="abt-div" data-aos="fade-right">
                 <h2 class="text-center">About US</h2>
                 <div>
                     <p class="para-abt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, aspernatur
@@ -108,7 +111,7 @@
                         vel exlaboriosam assumenda corrupti esse perspiciatis minima impedit deleniti neque!</p>
                 </div>
             </div>
-            <div class="about-auth">
+            <div class="about-auth" data-aos="fade-left">
                 <div class="image-auth">
                     <img src="https://avatars.githubusercontent.com/u/91517488?v=4" alt="">
                 </div>
@@ -124,7 +127,7 @@
             </div>
         </section>
         <section class="contact" id="contact">
-            <div class="contact-us">
+            <div class="contact-us" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                 <h2 class="text-center">Contact US</h2>
                 <div class="form">
                     <input class="input-tag" type="text" name="name" id="name" placeholder="Enter your name here">
@@ -143,6 +146,9 @@
     <footer>
         Copyright &copy; All Rights Reserved
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/script.js"></script>
+
 </body>
 
 </html>

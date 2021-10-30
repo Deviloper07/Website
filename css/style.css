@@ -14,13 +14,15 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
     top: 0px;
     cursor: pointer;
     height: 3.9vw;
+    z-index: 1000;
     min-height: 60px;
     max-width: 100%;
-    background-color: rgb(0, 0, 0);
+    width: 100%;
+    background-color: transparent;
 }
 
 .logo{
@@ -43,7 +45,6 @@ section{
     display: flex;
     width: auto;
     padding-left: 30px;
-    /* max-width: 40%; */
     justify-content: center;
     align-items: center;
 }
@@ -148,6 +149,12 @@ body{
     /* scroll-behavior: smooth; */
 }
 
+.main-div{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 .box-main{
     height: 500px;
     display: flex;
@@ -159,9 +166,12 @@ body{
 }
 
 .first-section{
+    width: 100%;
     height: 770px;
     margin-bottom: 0px;
     padding-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -183,7 +193,7 @@ body{
 
 .second-half img{
     width: 15vw;
-    min-width: 190px;
+    min-width: 150px;
     margin: 30px;
 }
 
@@ -267,7 +277,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 20px;
-    max-width: 95vw;
+    max-width: 95%;
     margin: 70px auto;
 }
 
@@ -277,6 +287,7 @@ body{
     border-radius: 7px;
     /* width: 15.625vw; */
     width: 240px;
+    margin: 5px;
 }
 
 .sec-top{
@@ -403,7 +414,7 @@ body{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     height: 350 px;
     padding: 30px;
-    width: 45%;
+    width: 35%;
     background-color: rgb(27, 25, 25);
     margin: 30px;
     margin-top: 110px;
@@ -417,7 +428,8 @@ body{
     border-radius: 9px;
     border: 2px solid#AF40FF;
     height: 10px;
-    width: 220px;
+    width: 70vw;
+    max-width: 220px;
     margin: 20px auto;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
