@@ -38,6 +38,12 @@ section {
     margin: 10px;
     border: solid white;
     border-radius: 7px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.logo img:hover {
+    width: 30px;
 }
 
 .nav-list {
@@ -54,6 +60,12 @@ section {
     list-style: none;
     padding: auto 10px;
     margin: auto 40px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.nav-list li:hover {
+    font-size: 20px;
 }
 
 .nav-list li a {
@@ -62,7 +74,6 @@ section {
 }
 
 .nav-list li a:hover {
-    /* text-decoration: none; */
     color: grey;
 }
 
@@ -86,6 +97,7 @@ section {
     border: 2px solid#AF40FF;
     height: 10px;
 }
+
 
 .btn-sm {
     margin: auto 20px;
