@@ -1,11 +1,11 @@
 AOS.init();
 
-window.addEventListener("scroll", ()=>{
+window.addEventListener("scroll", () => {
     let value = window.scrollY;
-    if (window.scrollY > 730){
+    if (window.scrollY > 730) {
         document.querySelector("nav").style.backgroundColor = "rgba(0, 0, 0, 0.79)";
     }
-    else{
+    else {
         document.querySelector("nav").style.backgroundColor = "transparent";
     }
 })

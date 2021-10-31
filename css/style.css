@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap");
 
-*{
+* {
     margin: auto;
     padding: auto;
     scroll-behavior: smooth;
 }
 
-section{
+section {
     margin: auto;
 }
 
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,7 +25,7 @@ section{
     background-color: transparent;
 }
 
-.logo{
+.logo {
     width: 70px;
     display: flex;
     justify-content: center;
@@ -33,14 +33,14 @@ section{
     margin: auto;
 }
 
-.logo img{
+.logo img {
     width: 45px;
     margin: 10px;
     border: solid white;
-    border-radius:7px;
+    border-radius: 7px;
 }
 
-.nav-list{
+.nav-list {
     margin: auto 10px;
     display: flex;
     width: auto;
@@ -49,24 +49,24 @@ section{
     align-items: center;
 }
 
-.nav-list li{
-    font-family: 'Comic Sans MS';
+.nav-list li {
+    font-family: "Comic Sans MS";
     list-style: none;
     padding: auto 10px;
     margin: auto 40px;
 }
 
-.nav-list li a{
+.nav-list li a {
     text-decoration: none;
     color: white;
 }
 
-.nav-list li a:hover{
+.nav-list li a:hover {
     /* text-decoration: none; */
     color: grey;
 }
 
-.right-nav{
+.right-nav {
     width: auto;
     margin: auto 20px;
     padding-right: 10px;
@@ -76,28 +76,28 @@ section{
     justify-content: right;
 }
 
-#search{
+#search {
     padding: 7px;
     margin: auto 10px;
     font-size: 13px;
-    font-family: 'Comic Sans MS';
+    font-family: "Comic Sans MS";
     text-align: left;
     border-radius: 9px;
     border: 2px solid#AF40FF;
     height: 10px;
 }
 
-.btn-sm{
+.btn-sm {
     margin: auto 20px;
     align-items: center;
-    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
     border: 0;
     border-radius: 8px;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: #ffffff;
     display: flex;
-    font-family: 'Comic Sans MS', sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
     font-size: 11px;
     justify-content: center;
     line-height: 1em;
@@ -114,48 +114,48 @@ section{
 
 .btn-sm:active,
 .btn-sm:hover {
-  outline: 0;
+    outline: 0;
 }
 
 .btn-sm span {
-  background-color: rgb(5, 6, 45);
-  padding: 7px 13px;
-  border-radius: 6px;
-  width: 100%;
-  height: 100%;
-  transition: 300ms;
+    background-color: rgb(5, 6, 45);
+    padding: 7px 13px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
 }
 
 .btn-sm:hover span {
-  background: none;
+    background: none;
 }
 
 @media (min-width: 20px) {
-  .btn-sm {
-    font-size: 14px;
-    min-width: 17px;
-  }
-} 
+    .btn-sm {
+        font-size: 14px;
+        min-width: 17px;
+    }
+}
 
-.background{
-    background: rgba(0, 0, 0, 0.5)url('../img/bg.jpg');
+.background {
+    background: rgba(0, 0, 0, 0.5) url("../img/bg.jpg");
     background-size: cover;
     background-blend-mode: darken;
 }
 
-body{
+body {
     background-color: #f8ceec;
     background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
     /* scroll-behavior: smooth; */
 }
 
-.main-div{
+.main-div {
     width: 100%;
     align-items: center;
     justify-content: center;
 }
 
-.box-main{
+.box-main {
     height: 500px;
     display: flex;
     justify-content: center;
@@ -165,7 +165,7 @@ body{
     margin: auto;
 }
 
-.first-section{
+.first-section {
     width: 100%;
     height: 770px;
     margin-bottom: 0px;
@@ -174,8 +174,7 @@ body{
     align-items: center;
 }
 
-
-.first-half{
+.first-half {
     padding: 20px;
     margin-right: 0px;
     width: auto;
@@ -185,36 +184,36 @@ body{
     align-items: center;
 }
 
-.second-half{
+.second-half {
     width: 25%;
     padding: 20px;
     margin-left: 0px;
 }
 
-.second-half img{
+.second-half img {
     width: 15vw;
     min-width: 150px;
     margin: 30px;
 }
 
-.buttons{
+.buttons {
     display: flex;
     align-items: center;
     justify-content: center;
     width: auto;
 }
 
-.btn{
+.btn {
     margin: 20px;
     align-items: center;
-    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
     border: 0;
     border-radius: 8px;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: #ffffff;
     display: flex;
-    font-family: 'Comic Sans MS', sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
     font-size: 11px;
     justify-content: center;
     line-height: 1em;
@@ -229,50 +228,50 @@ body{
     cursor: pointer;
 }
 
-.xter span{
+.xter span {
     height: auto;
 }
 
 .btn:active,
 .btn:hover {
-  outline: 0;
+    outline: 0;
 }
 
 .btn span {
-  background-color: rgb(5, 6, 45);
-  padding: 7px 13px;
-  border-radius: 6px;
-  width: 100%;
-  height: auto;
-  transition: 300ms;
+    background-color: rgb(5, 6, 45);
+    padding: 7px 13px;
+    border-radius: 6px;
+    width: 100%;
+    height: auto;
+    transition: 300ms;
 }
 
 .btn:hover span {
-  background: none;
+    background: none;
 }
 
 @media (min-width: 20px) {
-  .btn {
-    font-size: 17px;
-    min-width: 19px;
-  }
+    .btn {
+        font-size: 17px;
+        min-width: 19px;
+    }
 }
 
-.text-big{
+.text-big {
     font-size: 30px;
-    font-family: 'Comic Sans MS';
+    font-family: "Comic Sans MS";
     text-align: center;
 }
 
-.text-small{
+.text-small {
     font-size: 17px;
-    font-family: 'Comic Sans MS';
+    font-family: "Comic Sans MS";
     padding: 12px 12px;
     margin: 14px 14px;
     text-align: center;
 }
 
-.section{
+.section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -281,8 +280,10 @@ body{
     margin: 70px auto;
 }
 
-.section img{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+.section img {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     /* border: 3px solid black; */
     border-radius: 7px;
     /* width: 15.625vw; */
@@ -290,47 +291,50 @@ body{
     margin: 5px;
 }
 
-.sec-top{
+.sec-top {
     margin-top: 40px;
 }
 
-.sec-left{
+.sec-left {
     flex-direction: row-reverse;
     margin-bottom: 0px;
 }
 
-.sec-right{
+.sec-right {
     flex-direction: row;
     margin-bottom: 0px;
 }
 
-.thumbnail{
+.thumbnail {
     margin: 30px;
 }
 
-.sec-tag{
-    font-family: 'Dancing Script', cursive;
+.sec-tag {
+    font-family: "Dancing Script", cursive;
     font-weight: bolder;
     font-size: 50px;
 }
 
-.paras{
+.paras {
     padding: 23px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+        rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 7px;
 }
 
-.about-sec{
+.about-sec {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 70px;
 }
 
-.abt-div{
+.abt-div {
     font-size: 23px;
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     color: white;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+        rgba(0, 0, 0, 0.22) 0px 15px 12px;
     height: 360px;
     padding: 10px auto 10px auto;
     width: 50%;
@@ -339,79 +343,83 @@ body{
     border-radius: 7px;
 }
 
-.abt-div h2{
+.abt-div h2 {
     padding-top: 40px;
 }
 
-.para-abt{
+.para-abt {
     margin: 35px;
     text-align: center;
 }
 
-.about-auth{
+.about-auth {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+        rgba(0, 0, 0, 0.22) 0px 15px 12px;
     height: 310px;
     padding: 25px;
     width: 180px;
     background-color: rgb(27, 25, 25);
     margin: 30px;
+    /* margin-bottom: 40px; */
     border-radius: 7px;
 }
 
-.oh-no{
+.oh-no {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
 }
 
-.info p{
+.info p {
     text-align: center;
     margin: 10px auto 45px auto;
     font-size: 20px;
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     color: white;
 }
 
-.image-auth img{
+.image-auth img {
     height: 170px;
     margin: auto;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+        rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border-radius: 7px;
 }
 
-.git-btn{
+.git-btn {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: -20px;
 }
 
-.contact{
+.contact {
     display: flex;
     justify-content: center;
     margin: 0px;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.form{
+.form {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.contact-us{
+.contact-us {
     font-size: 23px;
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     color: white;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+        rgba(0, 0, 0, 0.22) 0px 15px 12px;
     height: 350 px;
     padding: 30px;
     width: 35%;
@@ -421,28 +429,31 @@ body{
     border-radius: 7px;
 }
 
-.input-tag{
+.input-tag {
     padding: 7px;
     font-size: 13px;
-    font-family: 'Comic Sans MS';
+    font-family: "Comic Sans MS";
     border-radius: 9px;
     border: 2px solid#AF40FF;
     height: 10px;
     width: 70vw;
     max-width: 220px;
     margin: 20px auto;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+        rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+        rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
-#name{
+#name {
     margin-top: 50px;
 }
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    font-family: 'Calibri';
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+        rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-family: "Calibri";
     padding: 7px;
 }
