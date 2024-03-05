@@ -22,7 +22,7 @@ section {
     min-height: 60px;
     max-width: 100%;
     width: 100%;
-    background-color: transparent;
+    backdrop-filter: blur(10px);
 }
 
 .logo {
