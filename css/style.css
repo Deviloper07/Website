@@ -22,7 +22,7 @@ section {
     height: auto; /* Adjusts height automatically to content */
     min-height: 60px; /* Ensures the navbar has a minimum height */
     z-index: 1000;
-    background-color: rgba(0, 0, 0, 0.8); /* Example: semi-transparent white for light theme, can adjust opacity as needed */
+    /*background-color: rgba(0, 0, 0, 0.8); /* Example: semi-transparent white for light theme, can adjust opacity as needed */
     backdrop-filter: blur(10px); /* Provides a frosted glass effect, enhancing the transparent background */
     -webkit-backdrop-filter: blur(10px); /* For Safari */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth and separation from the content below */
